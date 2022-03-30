@@ -1,0 +1,21 @@
+*{margin: 0; padding: 0;}
+html { overflow-y: scroll; }
+body { font-size: 14px; line-height:1em; font-family: Georgia, Serif; }
+.clear { clear: both; }
+#page-wrap { width: 700px; margin: 20px auto; }
+
+h1 { font: 30px Georgia, Serif; margin: 10px 0 20px 0; font-style:italic; font-weight:bold; }
+form{width:700px;}
+label { width: 140px; display: block; }
+input[type=text], textarea { width: 350px; outline: none; clear:right;}
+
+.rowElem label.error { float: none; font-style: italic; color: red; position: absolute; top: 16px; left: 0; font-size: 12px;}
+.rowElem #jqTransformTextarea-mm label.error { top: 28px; }
+.rowElem { position: relative; clear: both; min-height: 35px;margin-left:50px;}
+.rowElemSelect { clear: both; min-height: 35px; }
+
+.jqTransformTextarea, 
+.jqTransformSelectWrapper   { margin: 0; }
+.small {clear:left; margin-left:155px; font-size:10px; font-family: Tahoma, Geneva, sans-serif;}
+.switcher li{display: inline-block; padding:10px 0; margin:0;}
+.switcher img{border: 4px solid #999; padding:0; margin:0;}

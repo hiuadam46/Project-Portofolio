@@ -1,0 +1,66 @@
+body{background:#FFFFFF; color:#993ed8;}
+.small{color:#d3ace1;}
+button.jqTransformButton span {
+	background: transparent url(../images/ds_purple/btn_right.gif) no-repeat right top;
+}
+button.jqTransformButton span span {
+	background: transparent url(../images/ds_purple/btn_left.gif) no-repeat top left;
+	color: #333;
+}
+.jqTransformInputWrapper {
+	background: transparent url(../images/ds_purple/input_text_left.gif) no-repeat left top;
+}
+.jqTransformInputInner {
+	background: transparent url(../images/ds_purple/input_text_right.gif) no-repeat top right;
+}
+.jqTransformInputInner div input {
+	color:#993ed8;	
+}
+table.jqTransformTextarea td#jqTransformTextarea-tl{background: url(../images/ds_purple/textarea_tl.gif) no-repeat top left;}
+table.jqTransformTextarea td#jqTransformTextarea-tm{background: url(../images/ds_purple/textarea_tm.gif) repeat-x top left;}
+table.jqTransformTextarea td#jqTransformTextarea-tr{background: url(../images/ds_purple/textarea_tr.gif) no-repeat top left;}
+table.jqTransformTextarea td#jqTransformTextarea-ml{background: url(../images/ds_purple/textarea_ml.gif) repeat-y top left;}
+table.jqTransformTextarea td#jqTransformTextarea-mm{background: url(../images/ds_purple/textarea-mm.gif) repeat;}
+table.jqTransformTextarea td#jqTransformTextarea-mr{background: url(../images/ds_purple/textarea_mr.gif) repeat-y top left;}
+table.jqTransformTextarea td#jqTransformTextarea-bl{background: url(../images/ds_purple/textarea_bl.gif) no-repeat top left;}
+table.jqTransformTextarea td#jqTransformTextarea-bm{background: url(../images/ds_purple/textarea_bm.gif) repeat-x top left;}
+table.jqTransformTextarea td#jqTransformTextarea-br{background: url(../images/ds_purple/textarea_br.gif) no-repeat top left;}
+/*hover*/
+table.jqTransformTextarea-hover td#jqTransformTextarea-mm{background-image: url(../images/ds_purple/textarea-mm-hover.gif);}
+/*focus*/
+table.jqTransformTextarea-focus td#jqTransformTextarea-mm{background-image: url(../images/ds_purple/textarea-mm-focus.gif);}
+table.jqTransformTextarea .jqTransformSafariTextarea div {
+	border: 0px solid red;
+}
+table.jqTransformTextarea .jqTransformSafariTextarea textarea{
+}
+.jqTransformRadio {
+	background: transparent url(../images/ds_purple/radio.gif) no-repeat center top;
+}
+span.jqTransformCheckboxWrapper{
+}
+a.jqTransformCheckbox {
+	background: transparent url(../images/ds_purple/checkbox.gif) no-repeat center top;
+}
+.jqTransformSelectWrapper {
+	background: url(../images/ds_purple/select_left.gif) no-repeat top left;
+}
+.jqTransformSelectWrapper  a.jqTransformSelectOpen {
+	background: url(../images/ds_purple/select_right.gif) no-repeat center center;
+}
+.jqTransformSelectWrapper ul {
+	background-color: #FFF;
+	border: solid 1px #CCC;
+}
+.jqTransformSelectWrapper ul a {
+	color:#333;
+	background-color: #FFF;
+}
+.jqTransformSelectWrapper ul a.selected {
+	background: #EDEDED;
+	color: #333;
+}
+.jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover {
+	background:#d3ace1;
+	color: #fff;
+}

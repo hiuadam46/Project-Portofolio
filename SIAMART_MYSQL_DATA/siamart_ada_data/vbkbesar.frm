@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select `siamart_sidomakmur_data`.`bkbesar`.`nid` AS `nid`,`siamart_sidomakmur_data`.`bkbesar`.`bpid` AS `bpid`,sum((`siamart_sidomakmur_data`.`bkbesar`.`kredit` - `siamart_sidomakmur_data`.`bkbesar`.`debet`)) AS `hpp`,`siamart_sidomakmur_data`.`bkbesar`.`trans` AS `VALUE` from `siamart_sidomakmur_data`.`bkbesar` group by `siamart_sidomakmur_data`.`bkbesar`.`bpid`,`siamart_sidomakmur_data`.`bkbesar`.`nid`
+md5=f27e0398da819ff7780541598ba8a96b
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2020-01-27 23:03:48
+create-version=1
+source=SELECT nid, bpid, SUM(kredit-debet) AS hpp, trans AS VALUE FROM bkbesar GROUP BY bpid, nid
+client_cs_name=latin1
+connection_cl_name=latin1_swedish_ci
+view_body_utf8=select `siamart_sidomakmur_data`.`bkbesar`.`nid` AS `nid`,`siamart_sidomakmur_data`.`bkbesar`.`bpid` AS `bpid`,sum((`siamart_sidomakmur_data`.`bkbesar`.`kredit` - `siamart_sidomakmur_data`.`bkbesar`.`debet`)) AS `hpp`,`siamart_sidomakmur_data`.`bkbesar`.`trans` AS `VALUE` from `siamart_sidomakmur_data`.`bkbesar` group by `siamart_sidomakmur_data`.`bkbesar`.`bpid`,`siamart_sidomakmur_data`.`bkbesar`.`nid`

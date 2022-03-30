@@ -1,0 +1,10 @@
+master stok, tutup belum jalan, setelah simpan bersih sj, satuan tdk falid pengaruh ke tampilan stok, 
+kasir... setelah simpan 
+
+1. Cek masalah nomor double waktu input
+2. Master stok, tambah, cursornya di nama stok
+3. Master stok, tutup belum nutup
+4. Isi angka max 4 digit
+5. cek barcode2 dan 022222 tidak respon di kasir
+6. Arah Harga pelanggan di kasir
+7. Kolom kolom yang harus diisi gak boleh dilewati

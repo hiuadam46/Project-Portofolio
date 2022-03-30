@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.jqtransform.js" ></script>
+	<script language="javascript">
+		$(function(){
+			$('form').jqTransform({imgPath:'jqtransformplugin/images/'});
+		});
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/styles10.css" media="screen" />
+	<link rel="stylesheet" href="css/base.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/demo.css" type="text/css" media="all" />
+	
+</head>
+<body>
+	<form>
+		<div class="rowElem"><label>Nama : </label>
+                         <input type="text" name="nama" size="20" /></div>
+
+		<div class="rowElem"><label>Kelamin : </label> 
+			<input type="radio" name="kelamin" value="P" checked><label> Pria</label>
+			<input type="radio" name="kelamin" value="W" ><label> Wanita</label></div>
+    
+		<div class="rowElem">
+			<label>Agama : </label>
+			<select name="agama">
+			      <option value="0" selected>-- Pilih Agama --</option>
+			      <option value="islam">Islam</option>
+			      <option value="katolik">Katolik</option>
+			      <option value="protestan">Protestan</option>
+			      <option value="hindu">Hindu</option>
+			      <option value="budha">Budha</option>
+			</select>
+		</div>
+     
+ 		<div class="rowElem"><label>Hobi : </label>
+		      <input type="checkbox" name="hobi1"><label> Baca</label> 
+		      <input type="checkbox" name="hobi2"><label> Nonton</label> 
+		      <input type="checkbox" name="hobi3"><label> Musik</label>
+    </div>
+
+		<div class="rowElem"><label>Keterangan : </label><textarea name="keterangan" cols="70" rows="7"></textarea></div>
+		<div class="rowElem"><input type="submit" value="Proses" /></div>				
+
+</body>
+</html>

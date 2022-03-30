@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select `siamart_sumbertani_data`.`bkbesar`.`nid` AS `nid`,`siamart_sumbertani_data`.`bkbesar`.`bpid` AS `bpid`,sum((`siamart_sumbertani_data`.`bkbesar`.`kredit` - `siamart_sumbertani_data`.`bkbesar`.`debet`)) AS `hpp`,`siamart_sumbertani_data`.`bkbesar`.`trans` AS `VALUE` from `siamart_sumbertani_data`.`bkbesar` group by `siamart_sumbertani_data`.`bkbesar`.`bpid`,`siamart_sumbertani_data`.`bkbesar`.`nid`
+md5=c00edc5d46cbfbbcfefb8bfc79f623b7
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2020-02-13 04:22:31
+create-version=1
+source=SELECT nid, bpid, SUM(kredit-debet) AS hpp, trans AS VALUE FROM bkbesar GROUP BY bpid, nid
+client_cs_name=latin1
+connection_cl_name=latin1_swedish_ci
+view_body_utf8=select `siamart_sumbertani_data`.`bkbesar`.`nid` AS `nid`,`siamart_sumbertani_data`.`bkbesar`.`bpid` AS `bpid`,sum((`siamart_sumbertani_data`.`bkbesar`.`kredit` - `siamart_sumbertani_data`.`bkbesar`.`debet`)) AS `hpp`,`siamart_sumbertani_data`.`bkbesar`.`trans` AS `VALUE` from `siamart_sumbertani_data`.`bkbesar` group by `siamart_sumbertani_data`.`bkbesar`.`bpid`,`siamart_sumbertani_data`.`bkbesar`.`nid`
